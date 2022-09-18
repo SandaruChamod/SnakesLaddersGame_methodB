@@ -1,0 +1,66 @@
+IF position + roll < 100
+	THEN
+		IF position + roll = 3
+			THEN
+			position := 39
+		ELSE
+			IF position + roll = 10
+				THEN
+				position := 12
+			ELSE
+				IF position + roll = 16
+					THEN
+					position := 13
+				ELSE
+					IF position + roll = 27
+						THEN
+						position := 53
+					ELSE
+						IF position + roll = 31
+							THEN
+							position := 4
+						ELSE
+							IF position + roll = 47
+								THEN
+								position := 25
+							ELSE
+								IF position + roll = 56
+									THEN
+									position := 84
+								ELSE
+									IF position + roll = 61
+										THEN
+										position := 99
+									ELSE
+										IF position + roll = 63
+											THEN
+											position := 60
+										ELSE
+											IF position + roll = 66
+												THEN
+												position := 52
+											ELSE
+												IF position + roll = 72
+													THEN
+													position := 90
+												ELSE
+													IF position + roll = 97
+														THEN
+														position := 75
+													END
+													ELSE
+														position = position + roll
+													END
+												END
+											END
+										END
+									END
+								END
+							END
+						END
+					END
+				END
+			END
+		END
+			
+END

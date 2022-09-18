@@ -1,0 +1,154 @@
+p0 - The position before firstRoll
+p1 - The position after firstRoll
+p2 - The position after secondRoll
+
+// Please consider that some of the if/ else conditions has not been considered since they are invalid to navigate the target by two moves.
+Pre condition finding method
+(p0 + firstRoll <100 && 60 > p0 && p0 >= 55) || (p0 + firstRoll <100 && 94 > p0 && p0 >= 88) && (p1 + secondRoll < 100 && 100 > p1 && p1 >= 94)
+IF p0 + firstroll < 100
+	THEN
+		IF p0 + firstroll = 3
+			THEN
+			p1 := 39
+		ELSE
+			IF p0 + firstroll = 10
+				THEN
+				p1 := 12
+			ELSE
+				IF p0 + firstroll = 16
+					THEN
+					p1 := 13
+				ELSE
+					IF p0 + firstroll = 27
+						THEN
+						p1 := 53
+					ELSE
+						IF p0 + firstroll = 31
+							THEN
+							p1 := 4
+						ELSE
+							IF p0 + firstroll = 47
+								THEN
+								p1 := 25
+							ELSE
+								IF p0 + firstroll = 56
+									THEN
+									p1 := 84
+								ELSE
+									60 > p0 && p0 >= 55
+									IF p0 + firstroll = 61
+										THEN
+										p1 := 99
+										p1 + secondRoll < 100 && p1 >= 94
+									ELSE
+										IF p0 + firstroll = 63
+											THEN
+											p1 := 60
+										ELSE
+											IF p0 + firstroll = 66
+												THEN
+												p1 := 52
+											ELSE
+												IF p0 + firstroll = 72
+													THEN
+													p1 := 90
+												ELSE
+													IF p0 + firstroll = 97
+														THEN
+														p1 := 75
+													END
+													ELSE
+														94 > p0 && p0 >= 88
+														p0 + firstRoll >= 94
+														p1 = p0 + firstRoll
+														p1 + secondRoll < 100 && 100 > p1 && p1 >= 94
+													END
+												END
+											END
+										END
+									END
+								END
+							END
+						END
+					END
+				END
+			END
+		END
+			
+END
+
+p1 + secondRoll < 100 && 100 > p1 && p1 >= 94
+IF p1 + secondRoll < 100
+	THEN
+		IF p1 + secondRoll = 3
+			THEN
+			p2 := 39
+		ELSE
+			IF p1 + secondRoll = 10
+				THEN
+				p2 := 12
+			ELSE
+				IF p1 + secondRoll = 16
+					THEN
+					p2 := 13
+				ELSE
+					IF p1 + secondRoll = 27
+						THEN
+						p2 := 53
+					ELSE
+						IF p1 + secondRoll = 31
+							THEN
+							p2 := 4
+						ELSE
+							IF p1 + secondRoll = 47
+								THEN
+								p2 := 25
+							ELSE
+								IF p1 + secondRoll = 56
+									THEN
+									p2 := 84
+								ELSE
+									IF p1 + secondRoll = 61
+										THEN
+										p2 := 99
+									ELSE
+										IF p1 + secondRoll = 63
+											THEN
+											p2 := 60
+										ELSE
+											IF p1 + secondRoll = 66
+												THEN
+												p2 := 52
+											ELSE
+												IF p1 + secondRoll = 72
+													THEN
+													p2 := 90
+												ELSE
+													IF p1 + secondRoll = 97
+														THEN
+														p2 := 75
+													END
+													ELSE
+													    100 > p1 && p1 >= 94
+														100 = p1 + secondRoll
+														p2 = p1 + secondRoll
+														p2=100 & firstRoll>0 & firstRoll<7 & secondRoll>0 & secondRoll<7
+													END
+												END
+											END
+										END
+									END
+								END
+							END
+						END
+					END
+				END
+			END
+		END
+			
+END
+p2=100 & firstRoll>0 & firstRoll<7 & secondRoll>0 & secondRoll<7
+
+
+
+pre condition = (p0 + firstRoll <100 && 60 > p0 && p0 >= 55) || (p0 + firstRoll <100 && 94 > p0 && p0 >= 88) && (p1 + secondRoll < 100 && 100 > p1 && p1 >= 94)
